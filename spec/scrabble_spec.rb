@@ -29,4 +29,8 @@ describe('String#scrabble') do
   it('take "jx" and return a scrabble score of 16') do
     expect('jx'.scrabble()).to(eq(16))
   end
+
+  it('take "qz" and return a scrabble score of 20') do
+    expect('qz'.scrabble()).to(eq(20))
+  end
 end
