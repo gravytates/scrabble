@@ -4,9 +4,10 @@ class String
     value_two = ["d", "g"]
     value_three = ["b", "c", "m", "p"]
     value_four = ["f", "h", "v", "w", "y"]
-    all_values = [value_one, value_two, value_three, value_four]
+    value_five = ["k"]
+    all_values = [value_one, value_two, value_three, value_four, value_five]
     scrabble_scores = Hash.new()
-    scrabble_scores = {value_one => 1, value_two => 2, value_three => 3, value_four => 4}
+    scrabble_scores = {value_one => 1, value_two => 2, value_three => 3, value_four => 4, value_five => 5}
     letters = self.downcase().split("")
 
     total_score = 0
