@@ -9,6 +9,5 @@ describe('the scrabble path', {:type => :feature}) do
     fill_in('word', :with => 'nice')
     click_button('Show my score!')
     expect(page).to have_content('6')
-
   end
 end
