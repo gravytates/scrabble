@@ -6,7 +6,7 @@ class String
     value_four = ["f", "h", "v", "w", "y"]
     all_values = [value_one, value_two, value_three, value_four]
     scrabble_scores = Hash.new()
-    scrabble_scores = {value_one => 1, value_two => 2, value_three => 3}
+    scrabble_scores = {value_one => 1, value_two => 2, value_three => 3, value_four => 4}
     letters = self.downcase().split("")
 
     total_score = 0
